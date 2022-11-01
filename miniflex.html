@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-Flex-Task</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;   
+        }
+ 
+        .container{
+        background-color: aquamarine;
+            border: 5px solid green;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .container-one{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 95%;
+            height: 150px;
+            border: 5px solid blue;
+            background-color: cornflowerblue;
+        }
+
+        .container-two{
+            display: flex;
+            justify-content: space-between;
+            width: 95%;
+            height: 250px;
+         
+        }
+        .container-three{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 95%;
+            height: 150px;
+            border: 5px solid blue;
+            background-color: cornflowerblue;
+        }
+        .card-one{
+            width: 30%;
+            height: 100px;
+            border: 5px solid palevioletred;
+            background-color: pink;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .sec-one{
+            width: 45%;
+            height: 60px;
+            border: 5px solid red ;
+            background-color: palevioletred;
+        }
+        .card-two{
+            width: 49%;
+            border: 5px solid brown;
+            background-color: lightcoral;
+
+        }
+        .card-three{
+            height: 120px;
+            border: 5px solid brown;
+            background-color: lightcoral; 
+        }
+        .card-three-sec{
+            width: 49%;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .card-four{
+            width: 30%;
+            height: 100px;
+            border: 5px solid rgb(182, 6, 182);
+            background-color: rgb(247, 171, 247);
+          }
+
+        .card-five-sec{
+            width: 33%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .card-five{
+            width: 48%;
+            height: 100px;
+            border: 5px solid palevioletred;
+            background-color: pink;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container-one">
+<div class="card-one"></div>
+<div class="card-one">
+    <div class="sec-one"></div>
+    <div class="sec-one"></div>
+
+</div>
+<div class="card-one"></div>
+
+
+
+        </div>
+        <div class="container-two">
+            <div class="card-two"></div>
+            <div class="card-three-sec">
+                <div class="card-three">
+                
+                </div>
+                <div class="card-three">
+                
+                </div>
+            </div>
+
+        </div>
+        <div class="container-three">
+            <div class="card-four"></div>
+            <div class="card-five-sec">
+                <div class="card-five"></div>
+                <div class="card-five"></div>
+
+            </div>
+            <div class="card-four"></div>
+
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
